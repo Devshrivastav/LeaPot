@@ -1,0 +1,58 @@
+/* CSS */
+.subscription-confirmation {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #6f52ed;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(247, 246, 246, 0.1);
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  background-color: #6f52ed;
+  ;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+}
+
+.step.active {
+  background-color: #ccc;
+}
+
+.step span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #666;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+}
+
+.confirmation-message h2 {
+  font-weight: bold;
+  color: #00698f;
+}
+
+.confirmation-message p {
+  margin-bottom: 10px;
+}
+
+.confirmation-message a {
+  text-decoration: none;
+  color: #00698f;
+}

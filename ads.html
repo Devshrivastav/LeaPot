@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Add-ons</title>
+    <link rel="stylesheet" href="ads.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li>YOUR INFO</li>
+                <li>SELECT PLAN</li>
+                <li class="active">ADD-ONS</li>
+                <li>SUMMARY</li>
+            </ol>
+        </div>
+        <div class="form-container">
+            <h2>Pick add-ons</h2>
+            <p>Add-ons help enhance your gaming experience.</p>
+            <form id="addonsForm">
+                <div class="addon">
+                    <label>
+                        <input type="checkbox" name="addon" class="addon-checkbox" data-price="1" value="online-service">
+                        <span class="checkbox-custom"></span>
+                        <div class="addon-info">
+                            <h3>Online service</h3>
+                            <p>Access to multiplayer games</p>
+                            <span class="price">+$1/mo</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="addon">
+                    <label>
+                        <input type="checkbox" name="addon" class="addon-checkbox" data-price="2" value="larger-storage">
+                        <span class="checkbox-custom"></span>
+                        <div class="addon-info">
+                            <h3>Larger storage</h3>
+                            <p>Extra 1TB of cloud save</p>
+                            <span class="price">+$2/mo</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="addon">
+                    <label>
+                        <input type="checkbox" name="addon" class="addon-checkbox" data-price="2" value="customizable-profile">
+                        <span class="checkbox-custom"></span>
+                        <div class="addon-info">
+                            <h3>Customizable Profile</h3>
+                            <p>Custom theme on your profile</p>
+                            <span class="price">+$2/mo</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="summary">
+                    <p>Total (per month): <span id="total-price">+$9/mo</span></p>
+                </div>
+                <div class="buttons">
+                    <a href="plan.html" class="next-step">GO back</a>
+                    <a href="finish.html" class="next-step">Next Step</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="ads.js"></script>
+</body>
+</html>

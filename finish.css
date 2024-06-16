@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #5f50f0;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.step {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.step.active {
+    font-weight: bold;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.plan a {
+    color: #5f50f0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.confirm-button {
+    background-color: #5f50f0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.confirm-button:hover {
+    background-color: #4a3cc4;
+}
+
+.go-back {
+    display: block;
+    margin-top: 10px;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.go-back:hover {
+    text-decoration: underline;
+}
+.next-step {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6f52ed;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}

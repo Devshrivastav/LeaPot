@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Plan</title>
+    <link rel="stylesheet" href="plan.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li>YOUR INFO</li>
+                <li class="active">SELECT PLAN</li>
+                <li>ADD-ONS</li>
+                <li>SUMMARY</li>
+            </ol>
+        </div>
+        <div class="form-container">
+            <h2>Select your plan</h2>
+            <p>You have the option of monthly or yearly billing.</p>
+            <form id="planForm">
+                <div class="plans">
+                    <label class="plan">
+                        <input type="radio" name="plan" value="arcade" checked>
+                        <div class="plan-details">
+                            <div class="icon arcade"></div>
+                            <h3>Arcade</h3>
+                            <p class="price" data-monthly="$9/mo" data-yearly="$90/yr">$9/mo</p>
+                        </div>
+                    </label>
+                    <label class="plan">
+                        <input type="radio" name="plan" value="advanced">
+                        <div class="plan-details">
+                            <div class="icon advanced"></div>
+                            <h3>Advanced</h3>
+                            <p class="price" data-monthly="$12/mo" data-yearly="$120/yr">$12/mo</p>
+                        </div>
+                    </label>
+                    <label class="plan">
+                        <input type="radio" name="plan" value="pro">
+                        <div class="plan-details">
+                            <div class="icon pro"></div>
+                            <h3>Pro</h3>
+                            <p class="price" data-monthly="$15/mo" data-yearly="$150/yr">$15/mo</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="billing-toggle">
+                    <label>
+                        <input type="radio" name="billing" value="monthly" checked>
+                        <span>Monthly</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="billing" value="yearly">
+                        <span>Yearly</span>
+                    </label>
+                </div>
+                <div class="form-actions">
+                <a href="index.html" class="next-step">GO back</a>
+                <a href="ads.html" class="next-step">Next Step</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="plan.css"></script>
+</body>
+</html>
